@@ -72,5 +72,9 @@ export class CarsService {
         return;
     }
 
+    FillCardsWhitSeedData ( cars: Car[]) {
+        this.cars = cars
+    }
+
 }
 
